@@ -1,0 +1,54 @@
+Changes and additions to the Strange Fruit framework. 
+
+
+Directory: Design/CSS/frame.css
+I made changes to the style of the website. In this file, I styled several of 
+my Jquery UI plugins. I adjusted the font size of the body of the site. 
+
+On line 187, I hid the tool tip. Lines 224-239 I styled the logo and styleed the search bar. 
+
+Lines 332-to the end of the document, is where I styled the CSS for JQuery plugins. Line 39, I styled my Google maps, 
+legend I coded into the google map. Lines 429 to the end of document, I styled my tabs and accordion plugins to alter the
+default CSS associated with them. I altered them to keep the minimal and clean design I was going for. 
+
+Directory: Design/images
+I designed my own logo using an image that was in the public doman from the Library of Congress. 
+The logo is also a link that will return the user back to the home page. 
+
+Directory: Design/js/frame.js
+
+Here is where I put in my search terms for the autocomplete JQuery plugin. I struggled with coding the plugin 
+to fill from the MySQL database and I chose to keep it as local data.
+
+Directory: frame/view/content.php
+Lines: 46-56 I switched the order of the tabs so that text was the tab 1 and image was tab 2 leaving the page 
+to open automatically on text and have the user click to view the image. 
+
+Lines 74-79: I abstracted the concatenation of $tabs. 
+
+Directory: frame/view/work.php
+I created this file so that I could use the content_group_type of the same page. 
+
+Directory: media/images
+I loaded the images of the site in this folder
+
+Directory: plugins/accordion
+I designed this plugin so that I could collaapsible panels on my documentation page. I changed it from the default
+script, to make the panels open on mouseover and made it possible to collapse the active panel. 
+
+Directory: plugins/map
+Here I loaded a google map that I encoded and used 2 Fusion Google Layers. I styled one of the layers to show blue
+markers. I designed the implemented the legend on lines 66-77. I tied to code the zoom using the MySQL database as discussed in the class
+but it wasn't splitting on the second comma and wouldn't load because the ",[zoom number]" was being added to the longitude. 
+
+Directory: plugins/tabs
+I altered this plugin by using th active option so that when the plugin initialized it would activate the text panel
+
+Directory: system/library/view
+
+on line 154 and 169 I abstracted the echoes further to display cleaner and easier to read code. 
+
+
+
+
+ 
